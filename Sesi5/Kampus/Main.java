@@ -3,7 +3,7 @@ Nama    = Muhamad Iqbal Ramadhan
 NIM     = 20210040139
 Kelas   = TI21G
  */
-package Kampus;
+package Sesi5.Kampus;
 
 import java.util.Scanner;
 
