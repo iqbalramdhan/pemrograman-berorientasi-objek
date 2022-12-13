@@ -25,7 +25,7 @@ public class Main {
             }
             gunakanLaptop(andri, input);
         }
-
+in.close();
     }
 
     public static void gunakanLaptop(LaptopUser laptop, String input) {
