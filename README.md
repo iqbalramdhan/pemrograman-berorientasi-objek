@@ -1,41 +1,15 @@
-# Object Oriented Programming
+## Object Oriented Programming
 
-## Upload task only github with git.
+OOP merupakan suatu metode pemrograman yang berorientasi kepada objek. Dalam bahasa Indonesia OOP dikenal dengan PBO (Pemrograman Berorientasi Objek).
 
-## Getting Started
+---
 
-### Dependencies
+### Persyaratan
 
-* Before run java, install program
-* Visual Studio Code
-* Netbeans
+- Pastikan sudah mendownload **``netbeans``** atau **``vscode``**
+- Kemudian jangan lupa untuk menginstal juga **``JRE``**
 
-### Installing
+---
 
-* Succes install program and run code
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-click button run to running in code
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Iqbal Ramdhan 
-ex. [@iqbalramdhan01](https://twitter.com/iqbalramdhan01)
-
-## License
-
-This project is licensed under the License - see the LICENSE.md file for details
+## Author
+- [Muhamad Iqbal Ramadhan](https://github.com/iqbalramdhan)
