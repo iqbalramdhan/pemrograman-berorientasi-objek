@@ -3,8 +3,8 @@ package sesi12.com;
 import javax.swing.*;
 import java.awt.*;
 
-public class Calculator extends JFrame{
-    
+public class Calculator extends JFrame {
+
     JTextField txt = new JTextField(50);
 
     JButton b1 = new JButton("1");
@@ -25,9 +25,8 @@ public class Calculator extends JFrame{
     JButton bPercent = new JButton("%");
     JButton bModulo = new JButton("Mod");
     JButton bExit = new JButton("Exit");
-    
 
-    Calculator(int sizex, int sizey){
+    Calculator(int sizex, int sizey) {
         super("Calculator GUI");
         setSize(sizex, sizey);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -64,12 +63,11 @@ public class Calculator extends JFrame{
         buttonpanel.add(bModulo);
         buttonpanel.add(bExit);
 
-        
         add(buttonpanel, BorderLayout.CENTER);
-        
+
     }
 
     public static void main(String[] args) {
-        Calculator kal = new Calculator(350 , 250);
+        Calculator kal = new Calculator(350, 250);
     }
 }
