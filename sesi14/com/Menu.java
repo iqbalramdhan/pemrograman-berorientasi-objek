@@ -50,6 +50,7 @@ public class Menu {
         System.out.println("4. Show Data All");
         System.out.println("5. Edit Data");
         System.out.println("6. Delete Data");
+        System.out.println("7. Delete ALL Data");
         System.out.println("0. Keluar");
         System.out.println("");
         System.out.print("PILIHAN> ");
@@ -78,6 +79,9 @@ public class Menu {
                     break;
                 case 6:
                     deleteSupplier();
+                    break;
+                case 7:
+                    deleteColumn();
                     break;
                 default:
                     System.out.println("Pilihan salah!");
@@ -215,6 +219,24 @@ public class Menu {
             stmt.execute(sql);
 
             System.out.println("Data telah terhapus...");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    static void deleteColumn() {
+        try {
+            System.out.print("Hapus semua data: ");
+
+            String sql1 = "TRUNCATE TABLE supplier";
+            String sql2 = "TRUNCATE TABLE tbl_barang";
+            String sql3 = "TRUNCATE TABLE tbl_makanan";
+
+            stmt.execute(sql1);
+            stmt.execute(sql2);
+            stmt.execute(sql3);
+
+            System.out.println("Data semua telah terhapus...");
         } catch (Exception e) {
             e.printStackTrace();
         }
