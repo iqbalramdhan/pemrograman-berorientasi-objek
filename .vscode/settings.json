@@ -1,0 +1,13 @@
+{
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "/home/iqbal/Coding/ojdbc8.jar",
+            "/home/iqbal/Coding/jdbc.jar",
+        ],
+        "exclude": [
+            "/home/iqbal/Coding/mysql-connector-j-8.0.32.jar"
+        ]
+    },
+    "java.debug.settings.onBuildFailureProceed": true
+}
